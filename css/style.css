@@ -1,0 +1,83 @@
+body{
+  /* Lucida Grande font with a sans-serif fallback */
+  font-family: “Lucida Grande”, sans-serif;
+  color: white;
+  background-color: black;
+}
+h1{
+  /* Header 1 is 64px, centered */
+  font-size: 64px;
+  text-align: center;
+}
+h2{
+  /* Header 2 is 32px, with “black” drop shadow that is offset 4px horizontally, 4px
+vertically, and 2px blur */
+  font-size: 32px;
+  text-shadow: 4px 4px 2px black;
+}
+p{
+  /*Paragraphs are 16px with 15px padding on the top only */
+  font-size: 16px;
+  padding-top: 15px;
+}
+img{
+  /* a. All images are on their own line
+b. All images are centered
+c. All images are 550px wide with proper aspect ratio (they are not warped or
+stretched) */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  height: auto
+}
+div {
+  /* All divs must be at least 100px tall (but will automatically be taller if needed) with 30px
+  padding on all sides. */
+  min-height:100px;
+  padding: 30px;
+}
+#red{
+  /* Red div has the following styles:
+  a. Background color is “red”
+  b. Text is aligned on the right side */
+  background-color: red;
+  text-align: right;
+}
+#blue{
+  /* Blue div has the following styles
+  a. Background color is “blue”
+  b. Text is aligned on the left side */
+  background-color: blue;
+  text-align: left;
+}
+#yellow{
+  /* Yellow div has the following styles
+  a. Background color is “yellow”
+  b. Text is aligned on the right side
+  c. Header 2 and paragraph text is “black”d. Header 2 drop shadow is “grey” with the same parameters as above */
+  background-color: yellow;
+  text-align: right;
+}
+#yellow h2{
+  color: black;
+  text-shadow: 4px 4px 2px grey;
+}
+
+#yellow p{
+  color: black;
+}
+#green{
+  /*Green div has the following styles
+  a. Background color is “green”
+  b. Text is aligned on the left side */
+  background-color: green;
+  text-align: left;
+}
+footer{
+  /*  Footer text is centered with 15px padding on the bottom only */
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding-bottom: 15px;
+}
